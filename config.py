@@ -1,0 +1,23 @@
+class config():
+    train_data='/home/daixiangzi/github/efficientNet-PyTorch/examples/imagenet/data/train_test/train.txt'
+    test_data ='/home/daixiangzi/github/efficientNet-PyTorch/examples/imagenet/data/train_test/test.txt'
+    save_dir = '/home/daixiangzi/github/efficientNet-PyTorch/examples/imagenet/save_model'
+    model= '/home/daixiangzi/github/efficientNet-PyTorch/examples/imagenet/save_model/epoch_36.pth'
+    seed=666
+    test_batch_size=16
+    arch='efficientnet-b3'
+    image_size=224
+    gpu=0
+    cutout_n = 20#30,20,15
+    cutout_len=10
+    momentum=0.9
+    lr=0.01
+    batch_size=48
+    epochs = 90
+    worker=4
+    weight_decay=1e-4
+    print_frep = 100
+    loss_kind = "CE"#"CE,Focal"
+    num_class = 6
+    log_dir = "pre_runs"
+opt = config()
