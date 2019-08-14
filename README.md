@@ -1,6 +1,6 @@
 #PRCV 2019
 农业病虫害识别
-#requirement
+"""#requirement
 pytorch-1.1.0
 cuda9.0
 
