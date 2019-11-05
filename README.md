@@ -1,3 +1,5 @@
+#using efficientNet pre_model from :https://github.com/lukemelas/EfficientNet-PyTorch  
+  
 #PRCV 2019  
 农业病虫害识别     
 
@@ -14,3 +16,6 @@ python3 pre_train.py
 python3 test.py /home/data  
 output:  
 data.json  
+  
+#Result  
+accuracy:97.8%
