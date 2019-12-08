@@ -1,4 +1,4 @@
-# Using efficientNet pre_model from :https://github.com/lukemelas/EfficientNet-PyTorch  
+#Using efficientNet pre_model from :https://github.com/lukemelas/EfficientNet-PyTorch  
   
 # PRCV 2019  
 农业病虫害识别     
@@ -18,8 +18,8 @@ output:
 data.json  
   
 # Result  
-accuracy:97.8%
+Accuracy:97.8%
   
 # Notice
-official test dataset no pulic，i only get Train dataset and Validation set. if someone is interesting in this,please contact me .
+Official test dataset no pulic，i only get Train dataset and Validation set. if someone is interesting in this,please contact me .
 my email address: so_biu_biu@qq.com  
